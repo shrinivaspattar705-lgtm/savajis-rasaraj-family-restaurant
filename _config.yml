@@ -1,0 +1,14 @@
+# GitHub Pages Configuration
+# Ensures proper MIME type handling and file serving
+
+# Build settings
+exclude:
+  - README.md
+  - .gitignore
+  - LICENSE
+
+# Markdown processor
+markdown: kramdown
+
+# Safe mode for GitHub Pages
+safe: true
