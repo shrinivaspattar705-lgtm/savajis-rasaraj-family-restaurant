@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Savaji’s Rasaraj – Family Restaurant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-+IuQqKU6u+H5W8v2OJ4AcRjMIm6Y8vhx6ItYbJ5L0DEkRwcvydsuevG3UBvF33ZgprrOEvH2tXWtGWg7+kZJcw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="loader" id="loader">
+    <div class="loader-ring"></div>
+    <p>Crafting the royal experience...</p>
+  </div>
+
+  <div class="progress-container">
+    <div class="progress-bar" id="progressBar"></div>
+  </div>
+
+  <header class="navbar" id="navbar">
+    <div class="nav-inner container">
+      <a href="#home" class="brand">
+        <img src="images/rasaraj-logo.jpg" alt="Savaji’s Rasaraj logo" />
+        <span>Savaji’s Rasaraj</span>
+      </a>
+      <nav class="nav-menu">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#thali">Signature Thali</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content container">
+        <p class="eyebrow">Belagavi’s Royal Savaji House</p>
+        <h1>Savaji’s Rasaraj</h1>
+        <p class="hero-copy">Feel the Taste of Authentic, Home-Made Savaji Tradition.</p>
+        <p class="hero-desc">Serving Belagavi with authentic Savaji flavors since 2002.</p>
+        <div class="hero-actions">
+          <a href="#thali" class="btn btn-primary">Explore Menu</a>
+          <a href="#contact" class="btn btn-secondary">Visit Us</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container split-grid">
+        <div class="about-image reveal">
+          <img src="images/family-dining.jpeg" alt="Family dining" />
+        </div>
+        <div class="about-text reveal delayed">
+          <span class="section-label">About</span>
+          <h2>Tradition, Family, and Premium Savaji Delights</h2>
+          <p>Savaji’s Rasaraj is more than a restaurant — it is a celebration of North Karnataka’s bold Savaji culture.</p>
+          <p>For over 21 years, families and food lovers have gathered here to enjoy authentic home-style mutton delicacies crafted with passion and unforgettable flavor.</p>
+          <div class="about-highlights">
+            <div><i class="fas fa-check-circle"></i>Authentic home-style cooking</div>
+            <div><i class="fas fa-check-circle"></i>Family atmosphere</div>
+            <div><i class="fas fa-check-circle"></i>Traditional recipes</div>
+            <div><i class="fas fa-check-circle"></i>Hygienic preparation</div>
+            <div><i class="fas fa-check-circle"></i>Premium dining experience</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section thali" id="thali">
+      <div class="container section-header reveal">
+        <span class="section-label">Signature Thali</span>
+        <h2>Exclusive Mutton &amp; Egg Specialty House</h2>
+        <p>Chicken is NOT served. Every plate is crafted with rich tradition, bold spice, and premium hospitality.</p>
+      </div>
+      <div class="cards-grid">
+        <article class="food-card reveal">
+          <div class="card-badge">Red Mutton Thali</div>
+          <h3>Rich spicy gravy</h3>
+          <p>Includes bone soup, ghee rice, and Bhakri / chapati for an unforgettable feast.</p>
+        </article>
+        <article class="food-card reveal delayed">
+          <div class="card-badge">Mutton Chops Thali</div>
+          <h3>Juicy grilled perfection</h3>
+          <p>Premium chops with aromatic spices and classic Savaji heat.</p>
+        </article>
+        <article class="food-card reveal delayed-more">
+          <div class="card-badge">Loose Kheema</div>
+          <h3>Soft, fragrant mince</h3>
+          <p>Layered with spices and served with crisp accompaniments.</p>
+        </article>
+        <article class="food-card reveal delayed">
+          <div class="card-badge">Khardu Mutton</div>
+          <h3>Bold and smoky</h3>
+          <p>Signature regional recipe with rich gravy and intense flavor.</p>
+        </article>
+        <article class="food-card reveal">
+          <div class="card-badge">Kheema Balls</div>
+          <h3>Golden, tender bites</h3>
+          <p>Perfectly spiced and crispy for a premium comfort taste.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section gallery" id="gallery">
+      <div class="container section-header reveal">
+        <span class="section-label">Gallery</span>
+        <h2>Luxury dining moments from Savaji’s Rasaraj</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item reveal"><img src="images/dining-area.jpeg" alt="Dining area" /></div>
+        <div class="gallery-item reveal delayed"><img src="images/family-dining.jpeg" alt="Family dining" /></div>
+        <div class="gallery-item reveal delayed-more"><img src="images/ganesha-decor.jpeg" alt="Ganesha decor" /></div>
+        <div class="gallery-item reveal delayed"><img src="images/resturant-front.jpeg" alt="Restaurant front" /></div>
+      </div>
+    </section>
+
+    <section class="section testimonials" id="testimonials">
+      <div class="container section-header reveal">
+        <span class="section-label">Testimonials</span>
+        <h2>What guests say about our Savaji experience</h2>
+      </div>
+      <div class="testimonials-grid">
+        <article class="testimonial-card reveal">
+          <i class="fas fa-quote-left quote-icon"></i>
+          <p>“The best Savaji recipes in the city.”</p>
+          <span>— Belagavi Food Lover</span>
+        </article>
+        <article class="testimonial-card reveal delayed">
+          <i class="fas fa-quote-left quote-icon"></i>
+          <p>“Excellent service and authentic home-style food.”</p>
+          <span>— Regular Guest</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container split-grid reverse-grid">
+        <div class="contact-card reveal">
+          <span class="section-label">Contact</span>
+          <h2>Visit our royal dining destination</h2>
+          <div class="contact-info">
+            <div><i class="fas fa-map-marker-alt"></i><strong>Address</strong><p>Shivaji Road, Raviwar Peth, Belagavi, Karnataka 590001</p></div>
+            <div><i class="fas fa-clock"></i><strong>Timing</strong><p>Lunch: 1:00 PM – 3:15 PM<br>Dinner: 8:00 PM – 10:15 PM<br><span class="text-muted">Closed on Mondays.</span></p></div>
+            <div><i class="fas fa-phone"></i><strong>Phone</strong><p><a href="tel:9980496464">9980496464</a></p></div>
+            <div><i class="fab fa-whatsapp"></i><strong>WhatsApp</strong><p><a href="https://wa.me/918050979269" target="_blank">8050979269</a></p></div>
+          </div>
+          <div class="contact-actions">
+            <a href="tel:9980496464" class="btn btn-primary"><i class="fas fa-phone"></i> Click to call</a>
+            <a href="https://wa.me/918050979269" target="_blank" class="btn btn-secondary"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            <a href="https://www.instagram.com/savajisrasaraj" target="_blank" class="icon-btn"><i class="fab fa-instagram"></i></a>
+            <a href="https://maps.app.goo.gl/NrJGSRYRwaUE7F2Y9?g_st=ac" target="_blank" class="icon-btn"><i class="fas fa-map-marker-alt"></i></a>
+          </div>
+        </div>
+        <div class="contact-map reveal delayed">
+          <div class="map-frame">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3870.052180631129!2d74.509602!3d15.849721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbdd1b2adf2267f%3A0x7e5d6b0a86e2c1d7!2sShivaji%20Road%2C%20Raviwar%20Peth%2C%20Belagavi%2C%20Karnataka%20590001!5e0!3m2!1sen!2sin!4v1710000000000" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="map-overlay">
+              <a href="https://maps.app.goo.gl/NrJGSRYRwaUE7F2Y9?g_st=ac" target="_blank" class="btn btn-primary">Get Directions</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand reveal">
+        <img src="images/rasaraj-logo.jpg" alt="Rasaraj logo" />
+        <p>Royal Savaji dining with a premium cinematic ambience in Belagavi.</p>
+      </div>
+      <div class="footer-links reveal delayed">
+        <h3>Quick Links</h3>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#thali">Signature Thali</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-contact reveal delayed-more">
+        <h3>Contact</h3>
+        <p><i class="fas fa-phone"></i> 9980496464</p>
+        <p><i class="fab fa-whatsapp"></i> 8050979269</p>
+        <p><i class="fas fa-map-marker-alt"></i> Shivaji Road, Raviwar Peth, Belagavi</p>
+      </div>
+      <div class="footer-hours reveal delayed">
+        <h3>Opening Hours</h3>
+        <p>Lunch: 1:00 PM – 3:15 PM</p>
+        <p>Dinner: 8:00 PM – 10:15 PM</p>
+        <p>Closed on Mondays</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Savaji’s Rasaraj. Premium culinary heritage of Belagavi.</p>
+      <div class="social-footer">
+        <a href="https://www.instagram.com/savajisrasaraj" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/918050979269" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
