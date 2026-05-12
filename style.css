@@ -174,7 +174,7 @@ button,
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url('images/resturant-front.jpeg') center/cover no-repeat;
+  background: url('resturant-front.jpeg') center/cover no-repeat;
   overflow: hidden;
 }
 
